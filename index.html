@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="quiz.js"></script>
+	<style>input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid black;
+}
+body{
+	background-color:#FDF2E9;
+	font-family:helvetica;
+	color:#C70039;
+}
+#goButton{
+	display:none;
+}
+button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+	appearance:none;
+	padding:10px;
+	border:1px solid black;
+	border-radius:3px;
+  background-image:linear-gradient(#DAF7A6,#FFC300);
+  color:#C70039;
+}
+button:hover{
+	background-image:linear-gradient(#C70039,#C70039);
+	color:#DAF7A6;
+}
+#sec{
+border:1px solid black;
+background-color:#FFFFFF;
+box-shadow:inset 1px 1px 1px 1px black;
+
+}
+</style>
+</head>
+
+<body>
+	<h1 id="title">Tester</h1>
+	<hr>
+	<h2 id="Q">Choose a quiz to take</h2>
+	<div id="Qholder">
+
+	</div>	
+	<button id="goButton" onclick="getter()">go</button>
+	<div id="sec">
+	<button onclick="main('quiz1.txt')">Quiz1
+	</div>
+</body>
+</html>
