@@ -1,0 +1,35 @@
+Info
+What potato are you?
+type1
+type2
+type3
+
+Question
+What you do?
+type1---I like to run.
+type2---I like to bake.
+type3---I like to throw things.
+
+Question
+How do you handle change?
+type1---Not very well.
+type2---Excellent.
+type3---I LOVE to change. I eat change for breakfast. CHANGE.
+type1---Its allright I guess.
+
+Question
+What is your favorite food?
+type2---Potato
+type1---Chocolate
+type3---caramelized onion
+
+Question
+Do you find this test to be annoying?
+type3---yes
+type2---no
+
+Result
+Here is what potato you are
+type1---potato palidin
+type2---normal potato
+type3---store bought sacralage
