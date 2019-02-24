@@ -159,6 +159,7 @@ function results(){
 		if(points > max){
 			max = points;
 			PtName = pointHolder[o].name;
+			PtName2 = "";
 		}
 		if(points == max && pointHolder[o].name != PtName && PtName != ""){
 			PtName2 = pointHolder[o].name;
