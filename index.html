@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="quiz.js"></script>
+	<style>
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}        
+input:checked {
+  border: 6px solid black;
+}
+#goButton{
+    margin-top:5px;
+	display:none;
+}
+button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+	appearance:none;
+	padding:10px;
+	border:1px solid black;
+	border-radius:3px;
+  background-color:#846B8A;
+  color:#C98BB9;
+}
+button:hover{
+	background-color:#C98BB9;
+	color:#846B8A;
+}
+        
+#title{
+            color:white;
+            background-color:gray;
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height: 40px;
+            font-size:30px;
+            text-align: center;
+            margin:0;
+}        
+
+#Q{
+    padding:10px;
+    margin-bottom: 5px;
+    display:inline-block;
+    border-bottom:1px solid black;
+    width:auto;
+    line-height: 0px;
+}        
+        
+#centered{
+   text-align: center;
+}
+        
+#container{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}        
+
+#hold{
+    margin-top:25%;
+}       
+        
+</style>
+</head>
+
+<body>
+	<h1 id="title">Tester</h1>
+<div id="container">
+<div class="small"></div>
+    
+<div id="hold">
+    <div id="centered"><h2 id="Q">Choose a quiz to take</h2></div>
+	<div id="Qholder">
+
+	</div>	
+	<button id="goButton" onclick="getter()">go</button>
+	<div id="sec">
+	<button onclick="main('quiz1.txt')">Quiz1
+	</div>
+</div>
+<div class="small"></div>
+</div>
+</body>
+</html>
